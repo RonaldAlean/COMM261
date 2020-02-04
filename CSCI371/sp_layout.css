@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 1
+   
+   Layout styles for Slate and Pencil Tutoring
+   Author: Ronald Alean
+   Date:   1/24/2020
+   
+   Filename: sp_layout.css
+
+*/
+
+/* Window and Body Styles */
+body{
+   margin-left: auto;
+   margin-right: auto;
+   height: 100%;
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   /*text-align: center;*/
+}
+
+header, ul, nav, li, a {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* Row Styles */
+/*question 6*/
+div .row{
+  clear: both;
+}
+div .row::after{
+   clear:both;
+   content:"";
+   display: table;
+}
+
+/* Page Header Styles */
+body{
+   clear: left;
+}
+body header img{
+   display: block;
+   width: 70%;
+   margin-left: auto;
+}
+/*question 8*/
+body header nav:first-child li{
+   float: left;
+   padding-left: 2%;
+   padding-right: 2%;
+   width: 30%;
+}
+
+body > header > a{
+   display: block;
+   width: 100%;
+}
+/* Horizontal Navigation List Styles */
+body > nav.horizontal li{
+   width: 12.5%;
+}
+
+nav.horizontal li{
+   display: block;
+   float: left;
+}
+nav.horizontal a{
+   display: block;
+   text-align: center;
+}
+
+/* Topics Styles */
+body > header > ul{
+   display: block;
+   width: 20%;
+   float: left;
+   margin-left: 0%;
+   margin-right: 1.5%;
+}
+
+
+
+
+
+/* HR Styles */
+
+
+
+
+/* Customer Comment Styles */
+
+
+
+/* Footer Styles */
+
+
